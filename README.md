@@ -48,6 +48,9 @@ Kobi Hari
    * Cascading variables
    * The @property rule
 
+## Module Summaries
+* Module 1 - [CSS Selectors](Modules/Module%2001%20-%20Selectors/README.md)
+
 ## Exercises
 * Exercise 1 - [CSS Selectors game](Exercises/01.%20Selectors%20game/README.md)
 * Exercise 2 - [CSS Selectors Project](Exercises/02.%20Selectors/README.md)
