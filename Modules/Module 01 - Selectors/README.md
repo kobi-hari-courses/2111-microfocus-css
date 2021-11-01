@@ -13,6 +13,14 @@ In this module we will learn all about CSS selectors
 * **Id** Selector
 * **Universal** Selector
 
+## Attribute Selectors
+* Existance of attribute
+* Equality to value
+* Attribute contains value
+* Attribute begins or ends with value
+* Attribute is a space seperated list containing value
+* Attribute is a dash seperated list containing value
+
 ## CSS specifity
 * Specifity Hierarchy
 * How to calculate
@@ -45,3 +53,5 @@ In this module we will learn all about CSS selectors
 * [CSS Diner game](https://flukeout.github.io/)
 * [CSS Selectors Tutorial](https://vegibit.com/css-selectors-tutorial/)
 * [CSS Selectors Reference](https://www.w3schools.com/cssref/css_selectors.asp)
+* [Useful :nth-child Recipes](https://css-tricks.com/useful-nth-child-recipies/)
+* [CSS Attribute Selectors](https://css-tricks.com/attribute-selectors/)
