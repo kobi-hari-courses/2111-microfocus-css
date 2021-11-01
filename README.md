@@ -54,4 +54,6 @@ Kobi Hari
 ## Exercises
 * Exercise 1 - [CSS Selectors game](Exercises/01.%20Selectors%20game/README.md)
 * Exercise 2 - [CSS Selectors Project](Exercises/02.%20Selectors/README.md)
-* 
+
+## More Links
+* [CSS Guess Game](https://www.guess-css.app/)
