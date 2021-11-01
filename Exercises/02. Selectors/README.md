@@ -1,4 +1,4 @@
-# Exercise 1 - Selectors
+# Exercise 2 - Selectors
 
 ## Overview
 In this exercise we will practice using various CSS Selectors. Specifically we will use: 
