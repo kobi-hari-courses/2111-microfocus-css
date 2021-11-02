@@ -25,11 +25,6 @@ In this module we will learn all about CSS selectors
 * Attribute is a space seperated list containing value
 * Attribute is a dash seperated list containing value
 
-## CSS specifity
-* Specifity Hierarchy
-* How to calculate
-* Specifity rules
-
 ## CSS Combinators
 * **Descendant** Combinator
 * **Child** Combinator
@@ -47,6 +42,11 @@ In this module we will learn all about CSS selectors
 * **::after, ::before** Selectors
 * **::marker** Selector
 * **::selection** Selector
+
+## CSS specifity
+* Specifity Hierarchy
+* How to calculate
+* Specifity rules
 
 ## Angular Selectors
 * **:root** Selector

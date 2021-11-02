@@ -1,0 +1,65 @@
+
+
+p::first-letter {
+    font-size: 48px;
+    color: green;
+}
+
+p::first-line {
+ background-color: lime;
+}
+
+p::selection {
+    background: pink;
+    color: red;
+    font-style: italic;
+}
+
+p:nth-child(2) {
+    user-select: none;
+}
+
+.special {
+    color: red;
+}
+
+.special::before {
+    content: '[';
+    color: black;
+    font-size: 20px;
+}
+
+.special::after {
+    content: ']';
+    color: black;
+    font-size: 20px;
+}
+
+p.x.y {
+    color: cyan;
+}
+
+p#hello.x.y {
+    color: deeppink;
+}
+
+p {
+    color: orange;
+}
+
+p:hover {
+    color: navy;
+}
+
+#hello {
+    color: brown;
+}
+
+p.x {
+    color: green;
+}
+
+p.y {
+    color: red;
+}
+

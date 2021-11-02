@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attribute Selectors</title>
+    <link rel="stylesheet" href="attribute-selectors.css">
+</head>
+<body>
+    <form>
+        <div><label conditions="unique max(10) min(5)">Username</label></div>
+        <input type="text" hint="please enter username" >
+        <div><label conditions="required unique min(5)">Password</label></div>
+        <input type="password" bla="1" hint="enter password">
+        <div><label conditions="required contains@">email</label></div>
+        <input type="email" hint="enter email please">
+        <div><label>Username</label></div>
+        <input type="text">
+        <div><label conditions="contains-digit required">Password</label></div>
+        <input type="password">
+        <div><label conditions="required-sometimes">email</label></div>
+        <input type="email" bla="2">
+    </form>
+</body>
+</html>
