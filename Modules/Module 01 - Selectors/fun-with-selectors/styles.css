@@ -1,0 +1,24 @@
+li {
+    color: magenta;
+}
+
+.ugly {
+    color: darkkhaki;
+    background-color: darkturquoise;
+}
+
+.nice {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+kobi {
+    color: green;
+}
+
+#id154 {
+    border: 4px solid purple;
+}
+
+* {
+    font-style: italic;
+}
