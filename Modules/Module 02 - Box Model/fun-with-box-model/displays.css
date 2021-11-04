@@ -1,0 +1,19 @@
+.special {
+    color: blue;
+    border: 1px solid brown;
+    padding: 2px;
+    background: yellow;
+    margin: 20px;
+    line-height: 20px;
+}
+
+.box-container {
+    border: 1px solid black;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+}

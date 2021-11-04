@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: lime;
+    gap: 10px;
+}
+
+
+.bla {
+    width: 100px;
+    height: 100px;
+    border: 2px solid magenta;
+}

@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    border: 0px solid red;
+    margin: 20px;
+}
+
+p {
+    margin: 48px 0px;
+}
+
+.first {
+}
+
+.second {
+}
+

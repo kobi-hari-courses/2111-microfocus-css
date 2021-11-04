@@ -1,0 +1,41 @@
+div {
+    background: white;
+    margin: 10px;
+
+    padding: 20px;
+    background: lime;
+}
+
+.first {
+    width: 300px;
+    height: 200px;
+
+    border-style: solid;
+    border-color: brown;
+    border-width: 20px 10px 5px 0px;
+
+
+    border-radius: 50% 0px 40px 0px;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.second {
+    border: 5px solid gray;
+    font-size: 20px;
+    width: 50%;
+    height: 10cm;
+    overflow-y: scroll;
+}
+
+.third {
+    width: 128px;
+    height: 128px;
+    padding: 0px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+input {
+    outline: transparent;
+}
