@@ -51,11 +51,16 @@ Kobi Hari
 ## Module Summaries
 * Module 1 - [CSS Selectors](Modules/Module%2001%20-%20Selectors/README.md)
 * Module 2 - [Box Model](Modules/Module%2002%20-%20Box%20Model/README.md)
+* Module 3 - [Flexbox](Modules/../Exercises/05.%20Flexboxes/README.md)
+
 
 ## Exercises
 * Exercise 1 - [CSS Selectors game](Exercises/01.%20Selectors%20game/README.md)
 * Exercise 2 - [CSS Selectors Project](Exercises/02.%20Selectors/README.md)
 * Exercise 3- [Box Model](Exercises/03.%20Box%20Model/README.md)
+* Exercise 4 - [Flex Box Game](Exercises/04.%20Flexbox%20Game/README.md)
+* Exercise 5 - [Flex Box Projects](Exercises/05.%20Flexboxes/README.md)
+* Exercise 6 - [Grid Garden](Exercises/06.%20Grid%20Game/README.md)
 
 ## More Links
 * [CSS Guess Game](https://www.guess-css.app/)
