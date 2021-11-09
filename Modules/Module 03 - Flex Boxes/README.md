@@ -2,7 +2,7 @@
 In this module we will learn all about CSS flex boxes
 * The two axes of flexbox
 * Container - Child relations
-* 
+
 
 ## Projects
 

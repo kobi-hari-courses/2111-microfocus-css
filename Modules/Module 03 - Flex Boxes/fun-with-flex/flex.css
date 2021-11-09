@@ -1,0 +1,76 @@
+html, body {
+    width: 100%;
+    height: 100%;    
+}
+
+body {
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.parent {
+    width: 100%;
+    height: 100%;
+    background: lightgray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.child {
+    display: flex;
+    border: 1px solid black;
+    background: lime;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 100px;
+    padding: 20px;
+
+}
+
+.child:nth-child(9) {
+    flex-shrink: 3;
+}
+
+.child:nth-child(2) {
+    height: 120px;
+}
+
+.child:nth-child(5) {
+    align-self: flex-start;
+    flex-grow: 3;
+}
+
+.child:nth-child(6) {
+    align-self: flex-end;
+}
+
+.child:nth-child(1) {
+    align-self: stretch;
+}
+
+.child:nth-child(2n) {
+    order: 1;
+}
+
+.child:nth-child(7), .child:nth-child(9) {
+    order: -1;
+}
+
+
+/* I am missing 400px, i need to take away a total of 400px from all my children
+
+/* children 1, 2, 3, 5, 6, 7, 8, 9, 10: each have flex shrink: 2, 
+/* child 4 has flex shrink of 7
+/* total: 9*2 + 1*7 = 18 + 7 = 25
+
+/* 400 / 25 = 16 = each piece = 16px
+/* from the first child deduct 2 * 16 = 32px. 150-32 = 118px
+/* from child-4 deduct 7 * 16 = 112px. 150 - 112px = 38px
