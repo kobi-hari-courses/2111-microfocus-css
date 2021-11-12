@@ -15,11 +15,6 @@ In this module we will learn all about CSS grids
 * The `repeat` function
 * The `gap`, `column-gap` and `row-gap` container properties
 
-## Automatic row creation
-* The `grid-auto-rows` container property
-* The `minmax` function
-* `repeat` with `auto-fill`
-
 ## Line based placement
 * The `grid-column-start`, `grid-column-end`, `grid-row-start` and `grid-row-end` item properties
 * The `grid-column` and `grid-row` groups
@@ -49,8 +44,25 @@ In this module we will learn all about CSS grids
 * The `align-self` and `justify-self` item properties
 * The `place-self` group property
 
+# Day 2 - Grid
+
+## Automatic row creation
+* The `grid-auto-rows` container property
+* The `max` function
+* The `min` function
+* The `clamp` function
+* The `minmax` function
+* `repeat` with `auto-fill`
+* `repeat` with `auto-fit`
+  
+
+
+
+
 ## Extra links
 * [Complete Guide to Flexbox on CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [Grid Garden Game](https://cssgridgarden.com/)
 * [Grid guide on MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
 * [Grid auto placement](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Auto-placement_in_CSS_Grid_Layout)
+* [Deep Dive to `minmax` and `auto-fit`](https://ishadeed.com/article/css-grid-minmax/)
+* [`min`, `max` and `clamp` - The various sizing functions](https://web.dev/min-max-clamp/)
