@@ -45,13 +45,15 @@ In this module we will learn all about CSS grids
 * The `place-self` group property
 
 # Day 2 - Grid
-
-## Automatic row creation
-* The `grid-auto-rows` container property
+## Sizing functions
 * The `max` function
 * The `min` function
 * The `clamp` function
 * The `minmax` function
+
+
+## Automatic row creation
+* Review of the `grid-auto-rows` and `grid-auto-colu,ns` container property
 * `repeat` with `auto-fill`
 * `repeat` with `auto-fit`
   
