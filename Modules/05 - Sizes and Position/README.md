@@ -5,6 +5,7 @@ In this module we will learn all about CSS grids
 * The `max` function
 * The `min` function
 * The `clamp` function
+* Using math inside `min`, `max` and `clamp`
 * Adjusting font sizes using functions
 * The `minmax` function
 * Responsive grids using functions
