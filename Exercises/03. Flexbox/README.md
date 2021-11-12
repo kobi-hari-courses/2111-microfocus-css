@@ -1,12 +1,29 @@
-# Exercise 5 - Flex boxes
+# Flexbox - Exercises
 
-## Overview
-In this exercise we will practice CSS Flexboxes.
+## GAME - Flex Froggy
 
-## Getting Started
+### Overview
+In this exercise we will get familiar with **flexbox** by playing a game called **Flex Frogy**
+
+### Getting Started
+* Browse to the following link [Flexbox Froggy](https://flexboxfroggy.com/)
+
+### Instructions
+- The game consists of 24 levels.
+- In each level There is scene containing a some frogs inside a pond and some lilypads.
+- The target of each level is to bring the frogs to the their respective lilypads using flex properties on the pond, and sometimes on the frogs themselves.
+- To solve the level, you need to write the correct css properties in the editor. Once the properties have the correct values, you will be able to proceed to the next level.
+- Your goal is to finish all 24 levels
+
+~~~
+ENJOY!
+~~~
+
+## EXERCISE - Small projects
+### Getting Started
 In each of these exercises, you have an `html` file with a `<style>` section. In each file you have a problem which you should fix only by modifying the CSS.
 
-## Steps
+### Steps
 1. in `1.html` We have a main title, and a sub title. <br>
 ![initial](images/1.1.png)<br>
 We want that when there is enough space, the titles will be arraned next to each other so that the sub title is aligned to the end of the line: <br>

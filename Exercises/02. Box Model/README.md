@@ -1,4 +1,4 @@
-# Exercise 3 - Box Model
+# Box Model - Exercises
 
 ## Overview
 In this exercise we will practice The CSS Box Model.

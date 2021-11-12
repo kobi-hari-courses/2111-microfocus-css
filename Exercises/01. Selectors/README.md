@@ -1,4 +1,4 @@
-# Exercise 2 - Selectors
+# Selectors - Exercises
 
 ## Overview
 In this exercise we will practice using various CSS Selectors. Specifically we will use: 
@@ -8,13 +8,31 @@ In this exercise we will practice using various CSS Selectors. Specifically we w
 * Pseudo Selectors (Structural, State)
 * Pseudo Element Selectors (Before and After)
 
-## Getting Started
+## GAME - CSS Diner
+### Overview
+In this exercise we will get familiar with the various `CSS Selectors` by playing a game called **CSS Diner**
+
+### Getting Started
+* Browse to the following link [CSS Diner](https://flukeout.github.io/)
+
+## #Instructions
+- The game consists of 32 levels.
+- In each level There is scene described uisng an `HTML`-like file that contains some made up elements like `<plate>`, `<bento>` etc. 
+- The target of each level is to select specific elements from the scene, using `CSS Selectors`
+- To solve the level, you need to write the correct selector inside the `CSS Editor` in the line dedicated to that.
+- Once you have finished writing the answer, click on the `enter` button to check if your answer is correct. If it is, you will move on to the next level.
+- Your goal is to finish all 32 levels
+
+~~~
+ENJOY!
+~~~
+
+## EXERCISE - Selectors
 * Create a new project and download the [index.html](index.html) file.
 * Add a `selectors.css` file to your project.
 * Add a `<link>` tag to the `html` file to link it to the `CSS` file you have created
 
-
-## Steps
+### Steps
 Style the HTML elements according to the following instructions. 
 
 ~~~ 
@@ -36,7 +54,7 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 13. Make the `<em>` in the 3rd `<div>` element white and 20px font (`font-size:20px`)
 
 
-## BONUS CHALLENGES
+### BONUS CHALLENGES
 ~~~
 You may need to research some other selectors and properties
 ~~~
