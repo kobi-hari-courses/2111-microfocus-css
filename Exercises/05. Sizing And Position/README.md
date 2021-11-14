@@ -3,3 +3,7 @@ But notice that when ther is not enough space, they need to wrap in the followin
 ![solution](images/2.3.png)<br>
 ![solution](images/2.4.png)<br>
 ![solution](images/2.5.png)<br>
+
+
+* Add a "pdf" icon to any url that ends with pdf
+* create a tooltip to any `<a>` element that displays the address in a popup above the link

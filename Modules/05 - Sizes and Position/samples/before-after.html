@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Before After Sample</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;            
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        div {
+            margin: 20px;
+        }
+
+
+        /* Start your solution here */
+
+        [data-tool-tip] {
+            position: relative; 
+            text-decoration: underline dotted red;           
+        }
+
+        [data-tool-tip]::after {
+            content: attr(data-tool-tip);
+            position: absolute;
+            background: #333;
+            color: white;
+            padding: 4px;
+            border-radius: 5px;
+            font-family: sans-serif;
+            bottom: 0%;
+            left: 0;
+            transform: scale(0);
+            transition: ease-out 500ms;
+
+        }
+
+        [data-tool-tip]:hover::after {
+            transform: scale(1);
+            bottom: 100%;
+        }
+
+        body {
+            counter-reset: my-counter;
+        }
+
+        section::before {
+            counter-increment: my-counter;
+            content: counter(my-counter);
+            padding: 10px;
+            border: 2px solid currentColor;
+            background: rgb(255, 211, 211);;
+            display: inline-block;
+            border-radius: 50%;
+            margin: 5px;
+            color: rgb(153, 50, 50);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div>no tooltip</div>
+    <div data-tool-tip="a cool tooltip">This div has a tooltip</div>
+    
+    <section>bla bla bla</section>
+    <section>second bla bla bla</section>
+    <section>third bla bla bla</section>
+</body>
+</html>

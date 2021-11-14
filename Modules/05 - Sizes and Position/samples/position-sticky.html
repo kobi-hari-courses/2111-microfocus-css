@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Position Sticky</title>
+    <style>
+        html,
+        body {
+            font-family: sans-serif;
+            width: 100%;
+            height: 100%;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            max-width: 500px;
+            row-gap: 2em;
+        }
+
+        span {
+            text-align: right;
+            padding-right: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: sticky;
+            top: 0px;
+            grid-column: 1;
+            align-self: start;
+            border-bottom: 1px solid rgb(197, 197, 255);
+        }
+
+        p {
+            grid-column: 2;
+        }
+
+        strong {
+            position: sticky;
+            bottom: 0px;
+            background: yellow;
+        }
+
+        /* Start your solution here */
+    </style>
+</head>
+
+<body>
+    <section>
+        <span>Section 1</span>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis <strong>sem</strong> ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+    </section>
+    <section>
+        <span>Section 2</span>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+    </section>
+    <section>
+        <span>Section 3</span>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+    </section>
+    <section>
+        <span>Section 4</span>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+    </section>
+    <section>
+        <span>Section 5</span>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat neque ac nulla finibus, sit amet
+            aliquet
+            mauris sagittis. Suspendisse bibendum id mauris vitae elementum. Morbi porta metus nec odio fringilla
+            efficitur.
+            Quisque lobortis sem ligula, quis commodo tortor vestibulum vitae. Nunc ut orci leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent a semper nisi.
+        </p>
+    </section>
+</body>
+
+</html>
