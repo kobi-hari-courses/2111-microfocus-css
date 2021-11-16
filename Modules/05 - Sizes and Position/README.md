@@ -1,26 +1,33 @@
 # Module 5 - Sizing and Position
-In this module we will learn all about CSS grids
+In this module we will cover various sizing techniques, responsivness, and positioning.
 
 ## Media Queries
-
+* How to create a media query
+* How to modify the layout according to media properties
+* Restricting to screen media
+* Restricting to size and creating various breakpoints
+* Why not to use media queries and what better alternatives exist
 
 ## Sizing functions 
 * The `max` function
 * The `min` function
 * The `clamp` function
 * Using math inside `min`, `max` and `clamp`
-* Adjusting font sizes using functions
+* Responsive font sizes: Adjusting font sizes using functions
 * The `minmax` function
+* The limitations of `min`, `max` and `clamp` that `minmax` does not have
 * Responsive grids using functions
 
 ## Sizing Constants
-* `max-content` value and `min-content` value
-* 
+* `max-content` value 
+* `min-content` value
+* Using sizing constants in grid templates
 
 ## Automatic row creation
 * Review of the `grid-auto-rows` and `grid-auto-colu,ns` container property
 * `repeat` with `auto-fill`
 * `repeat` with `auto-fit`
+* The difference between `auto-fit` and `auto-fill`
 
 ## Introcution to Positions
 * Static
@@ -42,23 +49,6 @@ In this module we will learn all about CSS grids
 ## Combining Position with Flex and Grid
 * Position inside grid relative to "expected" position
   
-
-## Object fit
-* The `object-fit` property
-  * The `cover` value
-  * The `container` value
-  * The `scale-down` value
-  * The `fill` value
-  * The `none` value
-* The `object-position` property
-
-## The `::before` and `::after` elements
-* Must have `content` in order to exist - even an empty one
-* It is not placed before the element, but rather before **the content** of the element
-* Cannot be used with elements that do not have content like `<img>`, `<input>`, `<br>`
-* You can use them to add images, with the `url` value;
-* You can attach property values using the `attr([name])` function
-* You can use the `counter-reset`, `counter-increment` and `counter` properties to add counters
 
 
 ## Extra links

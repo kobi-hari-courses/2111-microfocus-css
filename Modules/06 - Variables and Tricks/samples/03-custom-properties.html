@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Custom Properties</title>
+    <style>
+
+        @property --angle{
+            syntax: '<angle>';
+            inherits: false;
+            initial-value: 180deg;
+        }
+
+        :root {
+            --h: 100;
+            --s: 50%;
+            --l: 50%;
+            --a: 0.5;
+
+            --spread: 5px;
+
+
+
+            --stop-1: red;
+            --stop-2: blue;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            transition: 1s;
+        }
+
+        .demo-1 {
+            background: hsl(var(--h) var(--s) var(--l) / var(--a));
+        }
+
+        .demo-1:hover {
+            --h: 200;
+            --a: 1;
+        }
+
+        .demo-2 {
+            background: lightskyblue;
+            box-shadow: 0 0 20px var(--spread) black;
+        }
+
+        .demo-2:hover {
+            --spread: 20px
+        }
+
+        .demo-3 {
+            background: linear-gradient(var(--angle), var(--stop-1), var(--stop-2));
+            transition: --angle 1s;
+        }
+
+        .demo-3:hover {
+            --angle: 90deg;
+            --stop-2: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo-1">
+        demonstrating HSLA color parts
+    </div>
+    <hr>
+    <div class="demo-2">
+        demonstrating control over shadow depth only
+    </div>
+    <hr>
+    <div class="demo-3">
+        demonstrating control gradient angle or stop.
+        *note - it does not animate, more on this later
+    </div>
+
+</body>
+
+</html>

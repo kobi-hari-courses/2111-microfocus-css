@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Object Fit</title>
+    <style>
+        img {
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Natural size</h2>
+    <img src="https://picsum.photos/id/1025/367/267">
+
+    <h2>Element resize</h2>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px;">
+
+    <h2>object fit: contain</h2>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: contain">
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 400px; height: 400px; object-fit: contain">
+
+    <h2>object fit: cover</h2>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: cover">
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 400px; height: 400px; object-fit: cover">
+
+    <h2>object fit: scale-down</h2>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: scale-down">
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 400px; height: 400px; object-fit: scale-down">
+
+    <h2>Object position</h2>
+    <h3>top left</h3>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: cover; 
+               object-position: top left;">
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: contain; 
+           object-position: top left;">
+<h3>bottom right</h3>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: cover; 
+           object-position: bottom right;">
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: contain; 
+           object-position: bottom right;">
+<h3>top center</h3>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: cover; 
+           object-position: top center;">
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: contain; 
+           object-position: top center;">
+<h3>center</h3>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: cover; 
+        object-position: center;">
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: contain; 
+        object-position: center;">
+
+<h3>10px 35%</h3>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: cover; 
+           object-position: 10px 35%">
+    <img src="https://picsum.photos/id/1025/367/267" 
+    style="width: 200px; height: 267px; object-fit: contain; 
+       object-position: 10px 35%">
+<h3>35% 10px</h3>
+    <img src="https://picsum.photos/id/1025/367/267" 
+        style="width: 200px; height: 267px; object-fit: cover; 
+        object-position: 35% 10px">
+    <img src="https://picsum.photos/id/1025/367/267" 
+    style="width: 200px; height: 267px; object-fit: contain; 
+    object-position: 35% 10px">
+
+</body>
+
+</html>
