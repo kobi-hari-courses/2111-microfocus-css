@@ -1,6 +1,9 @@
 # Module 5 - Sizing and Position
 In this module we will learn all about CSS grids
 
+## Media Queries
+
+
 ## Sizing functions 
 * The `max` function
 * The `min` function
