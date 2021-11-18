@@ -1,0 +1,30 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    padding: 50px;
+    --my-num: 20;
+    --pad-unit: 5px;
+}
+
+div {
+    background: lightgray;
+    border: 1px solid black;
+    width: calc(100px / 7); 
+    height: calc(var(--my-num) * 1px);
+    transform: rotate(calc(var(--my-num) * 1deg));
+    transition: 1s;
+    padding: calc(2 * --pad-unit);
+}
+
+div:hover {
+    --my-num: 40;
+}

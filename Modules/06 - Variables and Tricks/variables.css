@@ -1,0 +1,60 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --p-h: 120; 
+    --p-s: 40%;
+
+    --p100: hsl(var(--p-h), var(--p-s), 20%);
+    --p200: hsl(var(--p-h), var(--p-s), 40%);
+    --p300: hsl(var(--p-h), var(--p-s), 60%);
+    --p400: hsl(var(--p-h), var(--p-s), 80%);
+    --p500: hsl(var(--p-h), var(--p-s), 100%);
+
+    --large-margin: 10px;
+    --small-margin: 5px;    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+}
+
+.colors div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.colors div:nth-child(1) {
+    background: var(--p100);    
+}
+
+.colors div:nth-child(2) {
+    background: var(--p200);    
+}
+
+.colors div:nth-child(3) {
+    background: var(--p300);    
+}
+
+.colors div:nth-child(4) {
+    background: var(--p400);    
+}
+
+.colors div:nth-child(5) {
+    background: var(--p500);    
+}
