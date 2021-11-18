@@ -40,22 +40,6 @@
 * The `align-self` and `justify-self` item properties
 * The `place-self` group property
 
-# Day 2 - Grid
-## Sizing functions
-* The `max` function
-* The `min` function
-* The `clamp` function
-* The `minmax` function
-
-
-## Automatic row creation
-* Review of the `grid-auto-rows` and `grid-auto-colu,ns` container property
-* `repeat` with `auto-fill`
-* `repeat` with `auto-fit`
-  
-
-
-
 
 ## Extra links
 * [Complete Guide to Flexbox on CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
