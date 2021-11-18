@@ -5,7 +5,7 @@ Kobi Hari
 [my email: hari@applicolors.com](mailto://hari@applicolors.com)
 
 ## Course Agenda
-1. Selectors (4 hours)
+1. Selectors
    * Simple Selectors
    * Combinator Selectors
    * Psaudo Selectors

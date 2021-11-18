@@ -1,11 +1,4 @@
 # Module 1 - Selectors
-In this module we will learn all about CSS selectors
-
-   * Simple Selectors
-   * Combinator Selectors
-   * Psaudo Selectors
-   * Angular selectors
-## Projects
 
 ## Introduction to selectors
 * What is a selector?
