@@ -1,14 +1,4 @@
 # Module 3 - Flex boxes
-In this module we will learn all about CSS flex boxes
-* The two axes of flexbox
-* Container - Child relations
-* Flex Direction and Wrapping
-* Flex Sizing
-* Flex Alignment
-
-
-## Projects
-
 ## Flex box Axes
 * Row, Column
 * Row-Reverse and Column-Reverse

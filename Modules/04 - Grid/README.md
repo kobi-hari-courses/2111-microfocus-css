@@ -1,8 +1,4 @@
 # Module 4 - CSS Grids
-In this module we will learn all about CSS grids
-
-## Projects
-
 ## Introduction to Grid Layout
 * What is grid layout?
 * How to define elements as grid container and grid items

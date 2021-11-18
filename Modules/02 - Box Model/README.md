@@ -1,14 +1,4 @@
 # Module 2 - The Box Model
-In this module we will learn all about CSS box model
-
-   * Box model parts
-   * Sizing Units
-   * Various Displays
-   * Margin Collapsing
-   * Box Sizing methods
-
-## Projects
-
 ## Box Model
 * Content Width and Height
 * Padding

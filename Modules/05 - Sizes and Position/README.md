@@ -1,6 +1,4 @@
 # Module 5 - Sizing and Position
-In this module we will cover various sizing techniques, responsivness, and positioning.
-
 ## Media Queries
 * How to create a media query
 * How to modify the layout according to media properties

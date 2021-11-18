@@ -1,6 +1,4 @@
 # Module 6 - Variables and Tricks
-In this module we will get familiar with CSS Variables. We will then use all the technoques we have learned along with some new functions to create really cool effects.
-
 ## Object fit
 * The `object-fit` property
   * The `cover` value
