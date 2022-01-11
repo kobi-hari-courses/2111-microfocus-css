@@ -1,0 +1,15 @@
+span {
+    font-size: 2em;
+    width: auto;
+    height: auto;
+    color: green;
+    background: rgb(236, 236, 236);
+    border-radius: 50%;
+    padding: 8px;
+    line-height: 1;
+    border: 1px solid green;
+}
+
+div {
+    margin: 4px;
+}
