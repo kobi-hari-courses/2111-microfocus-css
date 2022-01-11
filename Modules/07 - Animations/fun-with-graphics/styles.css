@@ -13,3 +13,9 @@ span {
 div {
     margin: 4px;
 }
+
+span.material-icons-two-tone {
+    background: transparent;
+    border-color: black;
+    filter: invert(21%) sepia(65%) saturate(6896%) hue-rotate(112deg) brightness(96%) contrast(103%)
+}
