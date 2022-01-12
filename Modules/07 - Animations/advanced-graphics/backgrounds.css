@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+:root {
+    --my-color: #0073E7;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+div:nth-child(1) {
+    background-image: linear-gradient(green, white, green);
+}
+
+div:nth-child(2) { 
+    background-image: linear-gradient(to right, white, green);
+}
+
+div:nth-child(3) { 
+    background-image: linear-gradient(225deg, white, green);
+    width: 200px;
+}
+
+div:nth-child(4) { 
+    background-image: linear-gradient(225deg, white, green 10%, white 20%, blue);    
+}
+
+div:nth-child(5) {
+    background-color:green;
+    background-image: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4)), 
+        linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4));
+}
+
+div:nth-child(6) {
+    background-color: blue;
+    background-image: 
+        linear-gradient(to bottom, transparent 0px 10px, 
+            rgba(255, 255, 255, 0.4) 10px 11px, 
+            transparent 11px 20px,
+            rgba(255, 255, 255, 0.4) 20px 21px, 
+            transparent 21px 100%
+            ); 
+}
+
+div:nth-child(7) {
+    background-image: linear-gradient(to bottom, green 0 10%, lime 10% 40%, green 40% 100%);
+}
+
+div:nth-child(8) {
+    background-image: radial-gradient(white, blue, yellow);
+}
+
+div:nth-child(9) {
+    background-image: radial-gradient(circle closest-corner, white, blue);
+    width: 200px;
+}
+
+div:nth-child(10) {
+    background-image: radial-gradient(circle at 30% 10%, white, blue);
+    width: 200px;
+}
+
+div:nth-child(11) {
+    background-image: conic-gradient(red , yellow , green , cyan , blue , magenta, red );
+}
+
+div:nth-child(12) {
+    background-image: conic-gradient(white 0% 25%, black 25% 50%, white 50% 75%, black 75% 100%);
+}
+
+div:nth-child(13) {
+    background-image: repeating-linear-gradient(white 0px, blue 20px, yellow 40px);
+}
+
+div:nth-child(14) {
+    background-image: repeating-radial-gradient(white 0px, blue 20px, yellow 40px);
+}
+
+div:nth-child(15) {
+    background-color: var(--my-color);
+    background-image: linear-gradient(315deg, 
+        rgba(255, 255, 255, 0.3) 18.27%, 
+        rgba(255, 255, 255, 0.8) 45.4%, 
+        rgba(255, 255, 255, 0.3) 66.7%);
+}
+
+div:nth-child(15) .material-icons-outlined {
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+div:nth-child(16) {
+    background-image: linear-gradient(45deg, white, green);
+    background-size: 25px 35px;
+    background-repeat: repeat;
+    background-position: 10px 20px;
+    transition: 1s;
+}
+
+div:nth-child(16):hover {
+    background-position: 40px 20px;
+}
+
+div:nth-child(17) {
+    background-color: var(--my-color);
+    background-image: linear-gradient(315deg, 
+        rgba(255, 255, 255, 0.0) 35%, 
+        rgba(255, 255, 255, 0.7) 50%, 
+        rgba(255, 255, 255, 0.0) 65%);
+    background-position: -100px -100px;
+    background-size: 130% 130%;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+div:nth-child(17):hover {
+    background-position: 100px 100px;
+}
+
+
+div:nth-child(17) .material-icons-outlined {
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+div:nth-child(18) {
+    background-image: conic-gradient(white 0% 25%, black 25% 50%, white 50% 75%, black 75% 100%);
+    background-size: 20px 20px;
+}
+
+div:nth-child(19) {
+    background-color: rgb(209, 209, 166);
+    background-image: repeating-linear-gradient(to left, transparent 0px 10px, rgba(0, 0, 255, 0.1) 10px 11px), 
+    repeating-linear-gradient(to bottom, transparent 0px 10px, rgba(0, 0, 255, 0.1) 10px 11px);
+}
+
+div:nth-child(20) {
+    background-image: linear-gradient(red, black);
+    background-position: 50% 190%;
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    transition: 1s;
+}
+
+div:nth-child(20):hover {
+    background-position: 0% 125%;
+}
