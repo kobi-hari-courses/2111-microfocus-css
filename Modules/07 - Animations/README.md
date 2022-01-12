@@ -5,12 +5,13 @@
 * Importing `material-icons` as CSS
 * Displaying icons without using magic characters
 
-## Gradient Backgrounds
+## Advanced Backgrounds and Gradients
 * The `background-image` property
 * Using `linear-gradient` to create an "image" on the fly
 * Other gradient functions
 * Defining gradient stops
 * Setting the background size and position
+* Setting Background repeat
 * The `background-clip` property (Surprise!!!)
 
 ## Transformations
