@@ -1,0 +1,24 @@
+i.far {
+    font-size: 40px;
+    color: green;
+    border: 1px solid green;
+    padding: 8px;
+    border-radius: 50%;
+    background: rgba(0, 128, 0, 0.102);
+}
+
+
+i.material-icons-outlined {
+    font-size: 40px;
+    color: red;
+    border: 1px solid red;
+    padding: 8px;
+    border-radius: 50%;
+    background: rgba(128, 0, 0, 0.102);
+
+}
+
+.my-icon {
+    width: 100px;
+    height: 50px;
+}
