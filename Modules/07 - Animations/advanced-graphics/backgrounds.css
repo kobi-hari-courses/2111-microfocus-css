@@ -181,6 +181,7 @@ div:nth-child(21) .material-icons-outlined {
 
     background-clip: text;
     -webkit-background-clip: text;    
+    -moz-background-clip: text;
 }
 
 div:nth-child(21) .material-icons-outlined:hover {
