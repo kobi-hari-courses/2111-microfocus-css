@@ -156,12 +156,33 @@ div:nth-child(19) {
 
 div:nth-child(20) {
     background-image: linear-gradient(red, black);
-    background-position: 50% 190%;
+    background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: 200% 200%;
     transition: 1s;
 }
 
-div:nth-child(20):hover {
-    background-position: 0% 125%;
+div:nth-child(21) {
+    background-color: var(--my-color);
+}
+
+
+div:nth-child(21) .material-icons-outlined {
+    font-size: 100px;
+    color: rgb(255, 255, 255, 0.3);
+    background-image: linear-gradient(315deg, 
+        rgba(255, 255, 255, 0.0) 35%, 
+        rgba(255, 255, 255, 0.7) 50%, 
+        rgba(255, 255, 255, 0.0) 65%);
+    background-size: 200% 200%;
+    background-position: -50% -50%;
+    background-repeat: no-repeat;
+    transition: 2s;
+
+    background-clip: text;
+    -webkit-background-clip: text;    
+}
+
+div:nth-child(21) .material-icons-outlined:hover {
+    background-position: 150% 150%;
 }
