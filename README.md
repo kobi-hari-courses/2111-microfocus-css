@@ -55,6 +55,14 @@ Kobi Hari
    * The `calc` function with custom properties
    * Cool tricks with `::before` and `::after`
 
+7. [Advanced Graphics](Modules/07%20-%20Advanced%20Graphics/README.md)
+   * Using Vector Icons
+   * Advanced Backgrounds and Gradients
+   * Transformations
+   * Transitions
+   * Animations and Keyframes
+
+
 
 ## More Links
 * [CSS Guess Game](https://www.guess-css.app/)
