@@ -1,4 +1,4 @@
-# Module 1 - Selectors
+# Module 7 - Advanced Graphics
 
 ## Using Vector Icons
 * Importing `font-awesome` as CSS
