@@ -4,6 +4,7 @@
 * Importing `font-awesome` as CSS
 * Importing `material-icons` as CSS
 * Displaying icons without using magic characters
+* Understanding the path language of SVG, and the various fill rules
 
 ## Advanced Backgrounds and Gradients
 * The `background-image` property
